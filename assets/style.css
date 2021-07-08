@@ -32,7 +32,7 @@ textarea {
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
+  height: 90px;
   border-top: 1px solid white;
   background-color: white;
   border: solid 2.5px black; 
@@ -60,7 +60,7 @@ textarea {
   color: white;
 }
 
-.saveBtn {
+.btn btn-dark {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -68,7 +68,15 @@ textarea {
   color: white;
 }
 
-.saveBtn i:hover {
+.btn btn-dark i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+.appendText {
+  width: 700px;
+  font-size: 15px;
+  padding-top: 30px; 
+  color: black; 
+}
+
